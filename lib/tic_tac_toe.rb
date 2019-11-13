@@ -77,7 +77,7 @@ class TicTacToe
   
   def over?
     # full? || !!won? 
-    !!won || draw?
+    !!won? || draw?
   end
   
   def winner
