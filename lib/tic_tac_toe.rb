@@ -84,11 +84,11 @@ class TicTacToe
     won? ? @board[won?.first] : won?
   end
   
-  # def play
-  #   until over?
-  #     turn
-  #   end
-  #   puts winner ? "Congratulations #{winner}" : "Ended In A Draw"
-  # end
+  def play
+    until over?
+      turn
+    end
+    puts winner ? "Congratulations #{winner}" : "Ended In A Draw"
+  end
   
 end
