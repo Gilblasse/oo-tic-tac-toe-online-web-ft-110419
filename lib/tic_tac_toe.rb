@@ -87,7 +87,7 @@ class TicTacToe
     until over?
       turn
     end
-    puts winner ? "Congratulations #{winner}!" : "Ended In A Draw"
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
   end
   
 end
